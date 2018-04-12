@@ -1,0 +1,26 @@
+{
+  "name": "parcel-plugin-razor",
+  "version": "0.0.0",
+  "description": "Parcel plugin to handle Razor templates as entry points",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint ./**/*.js",
+    "patch": "np patch --yolo",
+    "minor": "np minor --yolo",
+    "major": "np major --yolo"
+  },
+  "author": "Dustin Deus <deusdustin@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "parcel-bundler": "^1.7.0"
+  },
+  "peerDependencies": {
+    "parcel-bundler": "^1.7.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-hemera": "^0.0.6",
+    "prettier": "^1.11.1",
+    "np": "^2.20.1"
+  }
+}
