@@ -1,6 +1,6 @@
 {
   "name": "parcel-plugin-razor",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Parcel plugin to handle Razor templates as entry points",
   "main": "index.js",
   "scripts": {
