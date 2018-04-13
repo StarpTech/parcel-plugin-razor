@@ -16,3 +16,13 @@ Install with [yarn](https://yarnpkg.com):
 ```bash
 $ yarn add parcel-plugin-razor
 ```
+
+## Configuration
+
+If you would like to enforce your own asset extension simply create `.razor.json` or  `razor.config.js` in your project root.
+
+```js
+{
+    "type": "html" // the output extension of your entry file (default: html)
+}
+```
